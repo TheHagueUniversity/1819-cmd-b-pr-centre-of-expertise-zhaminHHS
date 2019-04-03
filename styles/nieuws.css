@@ -7,87 +7,11 @@ main {
 	left: 284px;
 }
 
-body {
-	color: black;
-	background-image: url('../image/partner_bg_image.jpg');
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}
-
 .grid-container {
 	display: grid;
 	grid-template-columns: 1.6fr;
 	grid-template-rows: 0.5fr 1.2fr 1.6fr 0.6fr;
-	grid-template-areas: "header" "Nieuws" "Blogpost" "Footer";
-}
-
-.header {
-	grid-area: header;
-	border: 1px solid white;
-	font-family: Josefin Sans;
-}
-
-#header-logo {
-	width: 208px;
-	height: 189px;
-	float: left;
-}
-
-.login-logout {
-	float: right;
-	position: relative;
-	top: 100px;
-	left: -100px;
-}
-
-#mijnprofiel-link {
-	color: #00007D;
-	font-size: 28px;
-	float: right;
-	position: relative;
-	top: 90px;
-	left: 90px;
-}
-
-#mijnprofiel-icon {
-	width: 150px;
-	height: 150px;
-	float: right;
-	position: relative;
-	top: 130px;
-	left: -320px;
-}
-
-#mijnprofiel-link2 {
-	font-size: 16px;
-	color: #00007D;
-	position: relative;
-	top: 230px;
-	left: 690px;
-	font-family: Josefin Sans
-}
-
-#navigatiebar li {
-	list-style: none;
-	display: inline;
-	margin: 10px;
-	border-right: 1px black solid;
-	margin-right: 17px;
-	font-size: 20px;
-	position: relative;
-	left: 40px;
-}
-
-#navigatiebar {
-	border: 1px black solid;
-	padding: 25px;
-	font-family: Josefin Sans;
-	background-color: white;
-	position: relative;
-	top: 250px;
-	left: -100px;
-	width: auto;
+	grid-template-areas:"Nieuws" "Blogpost";
 }
 
 .Nieuws {
@@ -250,35 +174,4 @@ body {
 	left: 5px;
 	top: 2px;
 	position: relative;
-}
-
-.footer-section {
-	float: left;
-	font-family: Josefin Sans Light;
-	margin-left: 100px;
-}
-
-.footer-title {
-	font-family: Josefin Sans;
-	font-size: 20px;
-}
-
-#socialmedia-icon1 {
-	width: 51px;
-	height: 51px;
-}
-
-#socialmedia-icon2 {
-	width: 51px;
-	height: 51px;
-}
-
-#socialmedia-icon3 {
-	width: 51px;
-	height: 51px;
-}
-
-#Nieuwsbrief-icon {
-	width: 130px;
-	height: 40px;
 }
