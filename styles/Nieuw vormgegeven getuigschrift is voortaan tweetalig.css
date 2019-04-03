@@ -3,8 +3,8 @@ main {
 	width: 923px;
 	height: 940px;
 	position: relative;
-	top: 101px;
-	left: 283px;
+	top: -71px;
+	left: 169px;
 }
 
 body {
@@ -25,6 +25,30 @@ body {
 .Main-info {
 	grid-area: Main-info;
 }
+
+.nieuw-container{
+position: relative;
+top: 10px;
+
+
+}
+
+#nieuw-header{
+	font-family: Josefin Sans SemiBold;
+	position: relative;
+	top: 10px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#nieuw-tekst{
+font-family: Josefin Sans Light;
+font-size: 16px;
+position: relative;
+top: 85px;
+}
+
+
 
 .Footer {
 	grid-area: Footer;

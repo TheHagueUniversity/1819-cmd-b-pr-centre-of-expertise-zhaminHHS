@@ -3,7 +3,7 @@ body {
 	background-image: url('../image/partner_bg_image.jpg');
 	height: 100%;
 	width: 1200px;
-	background-size: cover;
+	background-attachment: fixed;
 }
 
 header {
@@ -33,7 +33,7 @@ header {
 	float: right;
 	position: relative;
 	top: -65px;
-	left: 30px;
+	left: -214px;
 }
 
 #mijnprofiel-icon {
@@ -49,8 +49,8 @@ header {
 	font-size: 16px;
 	color: #00007D;
 	position: relative;
-	top: 80px;
-	left: 1055px;
+	top: 73px;
+	left: 908px;
 	font-family: Josefin Sans
 }
 

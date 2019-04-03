@@ -1,0 +1,86 @@
+main {
+	background-color: rgb(255, 255, 255, 0.6);
+	width: 923px;
+	height: 940px;
+	position: relative;
+	top: -71px;
+	left: 169px;
+}
+
+body {
+	color: black;
+	background-image: url('../image/partner_bg_image.jpg');
+	height: 100%;
+	width: 1200px;
+	background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-rows: 0.6fr 1.8fr 0.6fr;
+  grid-template-areas: "Header Header" "Main-info Main-info" "Footer Footer";
+}
+
+.Main-info {
+	grid-area: Main-info;
+}
+
+.cyber-container{
+  height: 229px;
+  width: 782px;
+  background-color: rgb(255, 255, 255, 0.6);
+  position: relative;
+top: 41px;
+
+
+}
+
+#cyber-header{
+	font-family: Josefin Sans SemiBold;
+	position: relative;
+	top: 10px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#cyber-tekst{
+font-family: Josefin Sans Light;
+font-size: 16px;
+position: relative;
+top: 50px;
+left: 2px;
+
+}
+
+.cyber-container2{
+background-color: rgb(255, 255, 255, 0.6);
+height: 229px;
+width: 782px;
+    position: relative;
+  top: 61px;
+  left: -3px;
+}
+ #lectoraat-image{
+   width: 285px;
+   height: 312px;
+   position: relative;
+   top: 63px;
+   left: 40px;
+
+ }
+ #lectoraat-tekst{
+
+   font-family: Josefin Sans Light;
+   font-size: 16px;
+ }
+
+
+.Footer {
+	grid-area: Footer;
+	font-family: JosefinSans;
+	width: 923px;
+	position: relative;
+	top: 111px;
+	left: 168px;
+}

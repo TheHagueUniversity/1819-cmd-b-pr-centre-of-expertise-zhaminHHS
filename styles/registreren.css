@@ -1,118 +1,47 @@
-body {
-	color: black;
-	background-image: url('../image/partner_bg_image.jpg');
-	height: 100%;
-	width: 1200px;
-	background-size: cover;
-}
-
-header {
-	grid-area: Header;
-	font-family: Josefin Sans;
-	width: 1206px;
-	position: relative;
-	left: 236px;
-}
-
-#header-logo {
-	width: 208px;
-	height: 189px;
-	float: left;
-}
-
-.login-logout {
-	float: right;
-	position: relative;
-	top: 100px;
-	left: -221px;
-}
-
-#mijnprofiel-link {
-	color: #00007D;
-	font-size: 28px;
-	float: right;
-	position: relative;
-	top: -65px;
-	left: 30px;
-}
-
-#mijnprofiel-icon {
-	width: 100px;
-	height: 100px;
-	float: right;
-	position: relative;
-	top: 10px;
-	left: -439px;
-}
-
-#mijnprofiel-link2 {
-	font-size: 16px;
-	color: #00007D;
-	position: relative;
-	top: 80px;
-	left: 565px;
-	font-family: Josefin Sans
-}
-
-#navigatiebar li {
-	list-style: none;
-	display: inline;
-	margin: 10px;
-	border-right: 1px black solid;
-	margin-right: 17px;
-	font-size: 20px;
-	position: relative;
-	left: -73px;
-}
-
-#navigatiebar {
-	border: 1px black solid;
-	padding: 25px;
-	font-family: Josefin Sans;
-	background-color: white;
-	position: relative;
-	top: 193px;
-	width: 995px;
-}
-
-.footer-container {
-	width: 923px;
-	height: 150px;
+main {
 	background-color: rgb(255, 255, 255, 0.6);
-	color: black;
-	left: 1px;
-	top: -182px;
+	width: 923px;
+	height: 1100px;
 	position: relative;
-	float: left;
+	top: -11px;
+	left: 121px;
 }
 
-.footer-section {
-	float: left;
-	font-family: Josefin Sans Light;
-	margin-left: 70px;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.4fr 1.6fr;
+  grid-template-rows: 0.6fr 1.8fr 0.6fr;
+  grid-template-areas: "Header Header" "Main-info Main-info" "Footer Footer";
 }
 
-.footer-title {
-	font-family: Josefin Sans;
-	font-size: 20px;
+.Main-info { grid-area: Main-info;
+
 }
 
-#socialmedia-icon1 {
-	width: 51px;
-	height: 51px;
+#subsidie-image{
+width: 282px;
+height: 328px;
+position:relative;
+top: 398px;
+left:124px;
+
 }
 
-#socialmedia-icon2 {
-	width: 51px;
-	height: 51px;
+#registratie-image{
+	width: 282px;
+	height: 328px;
+	position:relative;
+	top: 398px;
+	left:232px;
+
 }
 
-#socialmedia-icon3 {
-	width: 51px;
-	height: 51px;
-}
-
-#Nieuwsbrief-icon {
-	width: 130px;
-	height: 40px;
+.Footer {
+	grid-area: Footer;
+	font-family: JosefinSans;
+	width: 923px;
+	position: relative;
+	top: 171px;
+	left: 119px;
 }

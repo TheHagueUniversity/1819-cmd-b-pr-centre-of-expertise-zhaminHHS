@@ -3,7 +3,7 @@ main {
 	width: 923px;
 	height: 1983px;
 	position: relative;
-	top: -166px;
+	top: -139px;
 	left: 157px;
 }
 
@@ -19,7 +19,6 @@ main {
 .Side-content {
 	grid-area: Side-content;
 	font-family: Josefin Sans;
-	border: 1px solid white;
 	margin: 50px;
 }
 
@@ -60,24 +59,36 @@ td {
 	padding: 15px;
 }
 
+.table1{
+	width: 221px;
+	height: 381px;
+	position: relative;
+	top: 480px;
+	left:0px;
+
+
+}
 .Main-info {
 	grid-area: Main-info;
 }
 
 #welkom {
 	position: relative;
-	left: 385px;
-	top: -184px;
+	left: 4px;
+	top: -500px;
+	font-size:48px;
+	text-align: center;
 }
 
 .lets-change {
 	width: 575px;
 	position: relative;
 	left: 267px;
-	top: 204px;
+	top: -27px;
 	background-color: rgb(255, 255, 255, 0.4);
 	font-size: 18px;
 	font-family: Josefin Sans Light;
+
 }
 
 .aanpak {
@@ -85,7 +96,7 @@ td {
 	height: 260px;
 	position: relative;
 	left: 267px;
-	top: 282px;
+	top: 31px;
 	background-color: rgb(255, 255, 255, 0.4);
 	font-size: 18px;
 	font-family: Josefin Sans Light;
@@ -93,10 +104,10 @@ td {
 
 .samenwerking {
 	width: 575px;
-	height: 800px;
+	height: 591px;
 	position: relative;
 	left: 267px;
-	top: 363px;
+	top: 76px;
 	background-color: rgb(255, 255, 255, 0.4);
 	font-size: 18px;
 	font-family: Josefin Sans Light;
@@ -111,13 +122,13 @@ td {
 .samenwerking-content2 {
 	position: relative;
 	left: 5px;
-	top: -100px;
+	top: -169px;
 }
 
 .samenwerking-content3 {
 	position: relative;
 	left: 5px;
-	top: -250px;
+	top: -353px;
 }
 
 #samen1-image {
@@ -142,6 +153,6 @@ a {
 	font-family: JosefinSans;
 	width: 923px;
 	position: relative;
-	top: 16px;
+	top: 43px;
 	left: 156px;
 }
