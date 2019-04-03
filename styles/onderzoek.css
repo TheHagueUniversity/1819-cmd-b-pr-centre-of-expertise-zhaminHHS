@@ -1,0 +1,243 @@
+main {
+	background-color: rgb(255, 255, 255, 0.6);
+	width: 923px;
+	height: 1940px;
+	position: relative;
+	top: 167px;
+	left: 284px;
+}
+
+body {
+	color: black;
+	background-image: url('../image/partner_bg_image.jpg');
+	height: 100%;
+	width: 1200px;
+	background-size: cover;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 0.5fr 1.5fr 0fr 0fr;
+	grid-template-rows: 0.6fr 1.9fr 0.5fr;
+	grid-template-areas: "Logo Header . ." "Side-content Main-information . ." "Footer Footer . .";
+}
+
+.Logo {
+	grid-area: Logo;
+	border: 1px solid white;
+}
+
+#header-logo {
+	width: 208px;
+	height: 189px;
+	float: left;
+}
+
+.Header {
+	grid-area: Header;
+	border: 1px solid white;
+	width: 922px;
+}
+
+.login-logout {
+	float: right;
+	position: relative;
+	top: 100px;
+	left: -100px;
+}
+
+#mijnprofiel-link {
+	color: #00007D;
+	font-size: 28px;
+	float: right;
+	position: relative;
+	top: -65px;
+	left: 30px;
+}
+
+#mijnprofiel-icon {
+	width: 100px;
+	height: 100px;
+	float: right;
+	position: relative;
+	top: 10px;
+	left: -320px;
+}
+
+#mijnprofiel-link2 {
+	font-size: 16px;
+	color: #00007D;
+	position: relative;
+	top: 80px;
+	left: 590px;
+	font-family: Josefin Sans
+}
+
+#navigatiebar li {
+	list-style: none;
+	display: inline;
+	margin: 10px;
+	border-right: 1px black solid;
+	margin-right: 17px;
+	font-size: 20px;
+	position: relative;
+	left: 40px;
+}
+
+#navigatiebar {
+	border: 1px black solid;
+	padding: 25px;
+	font-family: Josefin Sans;
+	background-color: white;
+	position: relative;
+	top: 250px;
+	left: -100px;
+	width: auto;
+}
+
+.Side-content {
+	grid-area: Side-content;
+	border: 1px solid white;
+	font-family: Josefin Sans;
+	position: relative;
+	top: 176px;
+	left: 765px;
+}
+
+.category-container {
+	position: relative;
+	top: 176px;
+	left: 15px;
+}
+
+#category-header {
+	font-family: Josefin Sans;
+	font-size: 20px;
+	position: relative;
+	top: -20px;
+	left: 75px;
+}
+
+.onderzoek-toevoegen-container {
+	background-color: rgb(255, 255, 255, 0.6);
+	font-family: Josefin Sans;
+	width: 238px;
+	height: 309px;
+	position: relative;
+	top: 260px;
+	left: 15px;
+}
+
+.onderzoek-toevoegen {
+	width: 238px;
+	height: 25px;
+}
+
+#toevoegen-header {
+	font-size: 20px;
+	font-family: Josefin Sans;
+	text-align: center;
+}
+
+.kwaliteit-tekst-container {
+	background-color: rgb(255, 255, 255, 0.6);
+	font-family: Josefin Sans;
+	width: 204px;
+	height: 249px;
+	position: relative;
+	top: 260px;
+	left: 5px;
+}
+
+#kwaliteit-tekst {
+	font-family: Josefin Sans Light;
+	position: relative;
+	top: 25px;
+	left: 5px;
+}
+
+.Main-info {
+	grid-area: Main-info;
+}
+
+#main-info-header {
+	font-size: 48px;
+	font-weight: Josefin Sans;
+	text-align: center;
+	position: relative;
+	top: -400px;
+}
+
+.onderzoek-tekst-container {
+	background-color: rgb(255, 255, 255, 0.6);
+	width: 510px;
+	height: 141px;
+	padding: 10px;
+	position: relative;
+	top: -350px;
+	left: 340px;
+}
+
+#onderzoek-tekst {
+	font-family: Josefin Sans Light;
+}
+
+.table-container {
+	position: relative;
+	left: 350px;
+	top: -277px;
+	width: 510px;
+	height: 1460px;
+	background-color: rgb(255, 255, 255, 0.6);
+}
+
+.Footer {
+	grid-area: Footer;
+	font-family: JosefinSans;
+	width: 923px;
+	position: relative;
+	top: 166px;
+	left: 282px;
+}
+
+.footer-container {
+	width: 923px;
+	height: 150px;
+	background-color: rgb(255, 255, 255, 0.6);
+	color: black;
+	left: 1px;
+	top: -182px;
+	position: relative;
+	float: left;
+}
+
+.footer-section {
+	float: left;
+	font-family: Josefin Sans Light;
+	margin-left: 70px;
+}
+
+.footer-title {
+	font-family: Josefin Sans;
+	font-size: 20px;
+}
+
+#socialmedia-icon1 {
+	width: 51px;
+	height: 51px;
+}
+
+#socialmedia-icon2 {
+	width: 51px;
+	height: 51px;
+}
+
+#socialmedia-icon3 {
+	width: 51px;
+	height: 51px;
+}
+
+#Nieuwsbrief-icon {
+	width: 130px;
+	height: 40px;
+}

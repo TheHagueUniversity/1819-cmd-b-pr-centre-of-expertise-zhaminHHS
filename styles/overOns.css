@@ -1,0 +1,366 @@
+main {
+	background-color: rgb(255, 255, 255, 0.6);
+	width: 923px;
+	height: 1100px;
+	position: relative;
+	top: -11px;
+	left: 121px;
+}
+
+body {
+	color: black;
+	background-image: url('../image/partner_bg_image.jpg');
+	height: 100%;
+	width: 1200px;
+	background-size: cover;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.4fr 1.7fr 0.4fr;
+	grid-template-areas: "Header" "Main-info" "Footer";
+}
+
+.Header {
+	grid-area: Header;
+	font-family: Josefin Sans;
+}
+
+#header-logo {
+	width: 208px;
+	height: 189px;
+	float: left;
+	position: relative;
+	top: -104px;
+	left: 166px;
+}
+
+.login-logout {
+	float: right;
+	position: relative;
+	top: 100px;
+	left: -189px;
+}
+
+#mijnprofiel-link {
+	color: #00007D;
+	font-size: 28px;
+	float: right;
+	position: relative;
+	top: -73px;
+	left: 129px;
+}
+
+#mijnprofiel-icon {
+	width: 100px;
+	height: 100px;
+	float: right;
+	position: relative;
+	top: 1px;
+	left: -303px;
+}
+
+#mijnprofiel-link2 {
+	font-size: 16px;
+	color: #00007D;
+	position: relative;
+	top: 72px;
+	left: 905px;
+	font-family: Josefin Sans
+}
+
+#navigatiebar li {
+	list-style: none;
+	display: inline;
+	margin: 14px;
+	border-right: 1px black solid;
+	font-size: 20px;
+	position: relative;
+}
+
+#navigatiebar {
+	display: inline;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: Josefin Sans;
+	background-color: white;
+	position: relative;
+	top: 221px;
+	left: 160px;
+}
+
+.Main-info {
+	grid-area: Main-info;
+}
+
+#pagina-header {
+	font-family: Josefin Sans SemiBold;
+	font-size: 48px;
+	text-align: center;
+}
+
+.centre-of-expertise-container {
+	background-color: rgb(255, 255, 255, 0.6);
+	width: 728px;
+	height: 195px;
+	position: relative;
+	top: 18px;
+	left: 94px;
+}
+
+#centre-of-expertise-text-header {
+	font-family: Josefin Sans;
+	font-size: 16px;
+	text-align: center;
+}
+
+#centre-of-expertise-text {
+	font-size: 13px;
+	font-family: Josefin Sans Light;
+	text-align: center;
+}
+
+.curious-container {
+	background-color: rgb(255, 255, 255, 0.6);
+	width: 243px;
+	height: 207px;
+	position: relative;
+	top: 40px;
+	left: 38px;
+}
+
+.connecting-container {
+	background-color: rgb(255, 255, 255, 0.6);
+	width: 243px;
+	height: 207px;
+	position: relative;
+	top: -186px;
+	left: 323px;
+}
+
+.caring-container {
+	background-color: rgb(255, 255, 255, 0.6);
+	width: 243px;
+	height: 207px;
+	position: relative;
+	top: -412px;
+	left: 612px;
+}
+
+#curious-titel {
+	text-align: center;
+	font-family: Josefin Sans SemiBold;
+	position: relative;
+	top: 12px;
+	left: 1px;
+}
+
+#connecting-titel {
+	text-align: center;
+	font-family: Josefin Sans SemiBold;
+	position: relative;
+	top: 9px;
+	left: 1px;
+}
+
+#caring-titel {
+	text-align: center;
+	font-family: Josefin Sans SemiBold;
+	position: relative;
+	top: 9px;
+	left: 1px;
+}
+
+#curious-tekst {
+	font-family: Josefin Sans Light;
+	text-align: center;
+	position: relative;
+	top: 32px;
+	left: 1px;
+}
+
+#connecting-tekst {
+	font-family: Josefin Sans Light;
+	text-align: center;
+	position: relative;
+	top: 32px;
+	left: 1px;
+}
+
+#caring-tekst {
+	font-family: Josefin Sans Light;
+	text-align: center;
+	position: relative;
+	top: 34px;
+	left: 1px;
+}
+
+#waarden-header {
+	text-align: center;
+	font-size: 20px;
+	font-family: Josefin Sans SemiBold;
+	position: relative;
+	top: 36px;
+}
+
+#image1 {
+	width: 254px;
+	height: 224px;
+}
+
+#image2 {
+	width: 254px;
+	height: 224px;
+}
+
+#image3 {
+	width: 254px;
+	height: 224px;
+}
+
+#image4 {
+	width: 254px;
+	height: 224px;
+}
+
+#image5 {
+	width: 254px;
+	height: 224px;
+}
+
+#image6 {
+	width: 254px;
+	height: 224px;
+}
+
+#image7 {
+	width: 254px;
+	height: 224px;
+}
+
+#image8 {
+	width: 254px;
+	height: 224px;
+}
+
+.content {
+	position: relative;
+	top: -238px;
+	left: 10px;
+}
+
+.gallery-item {
+	float: left;
+	width: 40%;
+	height: 0;
+	padding-bottom: 30%; //img aspect ratio
+	// display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.regular-img-container {
+	margin-right: 10%;
+	img {}
+}
+
+.slider-container {
+	overflow: hidden;
+}
+
+.slide-holder {
+	width: 400%;
+	img {
+		width: 25%;
+		display: inline-block;
+		max-width: 25%;
+		margin-right: -4px;
+	}
+	position: relative;
+	animation: scroller 15s infinite;
+	animation-direction: alternate;
+	animation-delay: 2s;
+	animation-timing-function: ease-in-out;
+}
+
+
+/* need a step for each slide */
+
+@keyframes scroller {
+	0% {
+		transform: translateX(0);
+	}
+	10% {
+		transform: translateX(0);
+	}
+	30% {
+		transform: translateX(-25%);
+	}
+	40% {
+		transform: translateX(-25%);
+	}
+	60% {
+		transform: translateX(-50%);
+	}
+	70% {
+		transform: translateX(-50%);
+	}
+	90% {
+		transform: translateX(-75%);
+	}
+	100% {
+		transform: translateX(-75%);
+	}
+}
+
+.Footer {
+	grid-area: Footer;
+	font-family: JosefinSans;
+	width: 923px;
+	position: relative;
+	top: 171px;
+	left: 119px;
+}
+
+.footer-container {
+	width: 923px;
+	height: 150px;
+	background-color: rgb(255, 255, 255, 0.6);
+	color: black;
+	left: 1px;
+	top: -182px;
+	position: relative;
+	float: left;
+}
+
+.footer-section {
+	float: left;
+	font-family: Josefin Sans Light;
+	margin-left: 70px;
+}
+
+.footer-title {
+	font-family: Josefin Sans;
+	font-size: 20px;
+}
+
+#socialmedia-icon1 {
+	width: 51px;
+	height: 51px;
+}
+
+#socialmedia-icon2 {
+	width: 51px;
+	height: 51px;
+}
+
+#socialmedia-icon3 {
+	width: 51px;
+	height: 51px;
+}
+
+#Nieuwsbrief-icon {
+	width: 130px;
+	height: 40px;
+}

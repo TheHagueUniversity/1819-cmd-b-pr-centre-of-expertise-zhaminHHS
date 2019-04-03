@@ -1,0 +1,137 @@
+main {
+	background-color: rgb(255, 255, 255, 0.6);
+	width: 923px;
+	height: 940px;
+	position: relative;
+	top: 101px;
+	left: 283px;
+}
+
+body {
+	color: black;
+	background-image: url('../image/partner_bg_image.jpg');
+	height: 100%;
+	width: 1200px;
+	background-size: cover;
+}
+
+.Header {
+	grid-area: Header;
+	font-family: Josefin Sans;
+	width: 1206px;
+	position: relative;
+	left: 236px;
+}
+
+#header-logo {
+	width: 208px;
+	height: 189px;
+	float: left;
+}
+
+.login-logout {
+	float: right;
+	position: relative;
+	top: 100px;
+	left: -221px;
+}
+
+#mijnprofiel-link {
+	color: #00007D;
+	font-size: 28px;
+	float: right;
+	position: relative;
+	top: -65px;
+	left: 30px;
+}
+
+#mijnprofiel-icon {
+	width: 100px;
+	height: 100px;
+	float: right;
+	position: relative;
+	top: 10px;
+	left: -439px;
+}
+
+#mijnprofiel-link2 {
+	font-size: 16px;
+	color: #00007D;
+	position: relative;
+	top: 80px;
+	left: 565px;
+	font-family: Josefin Sans
+}
+
+#navigatiebar li {
+	list-style: none;
+	display: inline;
+	margin: 10px;
+	border-right: 1px black solid;
+	margin-right: 17px;
+	font-size: 20px;
+	position: relative;
+	left: -73px;
+}
+
+#navigatiebar {
+	border: 1px black solid;
+	padding: 25px;
+	font-family: Josefin Sans;
+	background-color: white;
+	position: relative;
+	top: 193px;
+	width: 995px;
+}
+
+
+.Footer {
+	grid-area: Footer;
+	font-family: JosefinSans;
+	width: 923px;
+	position: relative;
+	top: 283px;
+	left: 282px;
+}
+
+.footer-container {
+	width: 923px;
+	height: 150px;
+	background-color: rgb(255, 255, 255, 0.6);
+	color: black;
+	left: 1px;
+	top: -182px;
+	position: relative;
+	float: left;
+}
+
+.footer-section {
+	float: left;
+	font-family: Josefin Sans Light;
+	margin-left: 70px;
+}
+
+.footer-title {
+	font-family: Josefin Sans;
+	font-size: 20px;
+}
+
+#socialmedia-icon1 {
+	width: 51px;
+	height: 51px;
+}
+
+#socialmedia-icon2 {
+	width: 51px;
+	height: 51px;
+}
+
+#socialmedia-icon3 {
+	width: 51px;
+	height: 51px;
+}
+
+#Nieuwsbrief-icon {
+	width: 130px;
+	height: 40px;
+}
