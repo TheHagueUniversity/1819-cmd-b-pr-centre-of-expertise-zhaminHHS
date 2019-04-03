@@ -8,7 +8,7 @@
 </head>
 
 <body>
-
+<!-- REVIEW: kijk goed naar bestand Parnter1.html hoe je daar de header hebt gemaakt -->
     <div class="grid-container">
         <div class="Logo">
             <img src="image/Asset 2.png" alt="Logo Centre of Expertise" id="header-logo" />
@@ -16,7 +16,9 @@
         </div>
         <div class="Header">
             <header>
+              <!-- REVIEW: nav zou hier al moeten beginnen ipv regel 23 -->
                 <label id="mijnprofiel-link2"><a href="">Inloggen/Uitloggen</a></label>
+                <!-- REVIEW: label kun je alleen gebruiken bij een input field. Ik zou nu gewoon de a de id toekennen -->
                 <img src="image/user (2).png" alt="mijn profiel" id="mijnprofiel-icon" />
                 <nav class="login-logout"><a href="" id="mijnprofiel-link">Mijn Profiel</a></nav>
 
@@ -35,19 +37,19 @@
         </div>
     </div>
     <main>
-        <div class="Side-content">
+        <div class="Side-content"><!-- REVIEW: <aside> ipv div -->
 
-            <div class="side-info">
+            <div class="side-info"> <!-- REVIEW: probeer het gebruik van div's zo veel mogelijk te vermijden. In dit geval zou ik sections gebruiken binnen de aside -->
 
                 <h3 id="algemene-links-header"> Ga naar </h3>
-                <div class "algemene-links">
+                <div class "algemene-links"><!-- REVIEW: dit moet een ul zijn -->
                     <a href=""> De Haagse Hogeschool</a></br>
                     <a href=""> Kenniskringleden</a></br>
                     <a href=""> HHS Docenten</a></br>
                     <a href=""> Studenten</a>
                 </div>
             </div>
-            <div class="divTable" style="width: 211px; border: 1px solid #000;">
+            <div class="divTable" style="width: 211px; border: 1px solid #000;"><!-- REVIEW: divtabel? maak hier gewoon een tabel van -->
                 <div class="divTableBody">
                     <div class="divTableRow">
                         <div class="divTableCell">Cyber Security &amp; Safety</div>
