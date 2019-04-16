@@ -1,10 +1,17 @@
 main {
 	background-color: rgb(255, 255, 255, 0.6);
 	width: 923px;
-	height: 940px;
+	height: 1325px;
 	position: relative;
-	top: 101px;
-	left: 283px;
+	top: -80px;
+	left: 167px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.4fr 1.6fr;
+  grid-template-rows: 0.7fr 1.8fr 0.5fr;
+  grid-template-areas: "Header Header" "Main Main" "Footer Footer";
 }
 
 body {
@@ -19,11 +26,96 @@ body {
 	grid-area: Main-info;
 }
 
+#registratie-header{
+text-align: center;
+position: relative;
+top: 8px;
+}
+
+.form-container{
+width: 426px;
+position: relative;
+top: 164px;
+left: 218px;
+font-size: 16px;
+font-family: Josefin sans semiBold;
+}
+
+
+.telefoon-field::-webkit-inner-spin-button,
+.telefoon-field::-webkit-outer-spin-button {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	margin: 0;
+}
+#fname{
+	width: 300px;
+	height: 38px;
+	position: relative;
+	left: 124px;
+}
+#tvoeg{
+	width: 300px;
+	height: 38px;
+	position: relative;
+	left: 97px;
+}
+#wfield{
+	width: 300px;
+	height: 38px;
+	position: relative;
+	left: 213px;
+	top:-32px;
+}
+#afield{
+	width: 300px;
+	height: 38px;
+	position: relative;
+	left: 111px;
+}
+#wfield2{
+	width: 300px;
+	height: 38px;
+	position: relative;
+	left:109px;
+	top:0px;
+
+}
+#efield1{
+	width: 300px;
+	height: 38px;
+	position: relative;
+	left:109px;
+
+}
+#efield2{
+	width: 300px;
+	height: 38px;
+	position: relative;
+	left: 215px;
+	top:-22px;
+}
+#tfield{
+	width: 300px;
+	height: 38px;position: relative;
+	left: 213px;
+	top:-27px;
+}
+
+#nieuwsbox{
+	position: relative;
+	left:214px;
+}
+#algemene-voorwarden{
+	font-size: 24px;
+	font-family: Josefin sans semiBold;
+}
 .Footer {
 	grid-area: Footer;
 	font-family: JosefinSans;
 	width: 923px;
 	position: relative;
-	top: 16px;
-	left: 156px;
+	top: 102px;
+	left: 166px;
 }
